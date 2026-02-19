@@ -2,7 +2,7 @@
 Export final OAH partition plots for 2D datasets used in the paper.
 
 This script reproduces the "Go to End" state from GUI-like settings and saves
-figures directly to article/llncs/figures/datasets.
+figures directly to figures/datasets.
 """
 
 from __future__ import annotations
@@ -145,7 +145,7 @@ def _plot_one(name: str, out_path: Path) -> None:
 
 
 def main() -> None:
-    out_dir = Path("article/llncs/figures/datasets")
+    out_dir = Path("figures/datasets")
     out_dir.mkdir(parents=True, exist_ok=True)
     names = ["xor", "moons", "circles", "gauss_far", "gauss_overlap", "piecewise"]
     for name in names:
@@ -156,4 +156,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

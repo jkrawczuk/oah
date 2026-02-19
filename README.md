@@ -1,6 +1,6 @@
 # oah
 
-Online Additive Hyperplanes (OAH) codebase extracted from `constructor`.
+Online Additive Hyperplanes (OAH): code for the model, experiments, and interactive tools.
 
 ## Contents
 - `src/oah` - OAH package (model and datasets)
@@ -24,4 +24,5 @@ poetry run python -m oah.playground
 ## Reproducibility note
 - Use a tagged commit/release for paper results.
 - Run all commands from the repository root.
-- Output files are written by scripts under `scripts/img` and `scripts/csv` (as configured in each script).
+- Main experiment outputs are written under `results/`.
+- Plot scripts may also write figures under `scripts/img/` or `figures/`.
