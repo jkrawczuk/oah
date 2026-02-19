@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Online Additive Hyperplanes (OAH)"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Krawczuk"
+    given-names: "Jerzy"
+    affiliation: "Bialystok University of Technology"
+    email: "j.krawczuk@pb.edu.pl"
+    orcid: "https://orcid.org/0000-0001-9751-2165"
+repository-code: "https://github.com/unrepeat/oah"
+url: "https://github.com/unrepeat/oah"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-02-19"
