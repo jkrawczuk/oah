@@ -2,7 +2,7 @@
 
 Online Additive Hyperplanes (OAH): code for the model, experiments, and interactive tools.
 
-Release used for the paper artifact: `v1.0.2`
+Release used for the paper artifact: `v1.0.3`
 
 ## Contents
 - `src/oah` - OAH package (model and datasets)

@@ -1,6 +1,6 @@
 # Reproducibility Guide (Artifact)
 
-This guide describes how to reproduce the main paper outputs from the public release `v1.0.2`.
+This guide describes how to reproduce the main paper outputs from the public release `v1.0.3`.
 
 ## Scope
 - Training/evaluation protocol: prequential (predict-then-update)
@@ -47,10 +47,10 @@ poetry run python scripts/export_final_dataset_figures.py
 
 ## Artifact Checklist
 - Public code URL: `https://github.com/jkrawczuk/oah`
-- Release tag used by manuscript: `v1.0.2`
+- Release tag used by manuscript: `v1.0.3`
 - Citation metadata: `CITATION.cff`
 - License: MIT
 - Dependency lockfile: `poetry.lock`
 
 ## Optional archival DOI
-For stronger long-term reproducibility, archive release `v1.0.2` in Zenodo and add DOI to paper code-availability text.
+For stronger long-term reproducibility, archive release `v1.0.3` in Zenodo and add DOI to paper code-availability text.
